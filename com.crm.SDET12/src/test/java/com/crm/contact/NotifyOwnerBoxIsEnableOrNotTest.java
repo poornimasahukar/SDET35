@@ -22,7 +22,7 @@ public class NotifyOwnerBoxIsEnableOrNotTest extends BaseClass{
 
 
 
-		//To store the values in Reference variable
+		//get the properties
 		String URL =fLib.getPropertyKeyValue("url");
 		String USERNAME = fLib.getPropertyKeyValue("username");
 		String PASSWORD = fLib.getPropertyKeyValue("password");
