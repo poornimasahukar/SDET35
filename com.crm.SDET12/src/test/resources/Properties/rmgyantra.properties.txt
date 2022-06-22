@@ -1,0 +1,7 @@
+url http://localhost:8084
+username admin
+password admin
+browser chrome
+url1 jdbc:mysql://localhost:3306/projects
+username1 root
+password root

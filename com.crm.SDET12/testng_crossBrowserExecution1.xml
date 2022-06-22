@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" parallel="tests" name="Test">
+  <parameter name="BROWSER" value="Chrome"/>
+    <classes>
+      <class name="com.crm.contact.NotifyOwnerBoxIsEnableOrNotTest"/>
+      <class name="com.crm.contact.EmailOptOutBoxIsEnableOrNotTest"/>
+      <class name="com.crm.contact.PortalUserboxIsEnableOrNotTest"/>
+      <class name="com.crm.contact.ReferanceBoxIsEnableOrNotTest"/>
+    </classes>
+    </test>
+    <test name="TestRunner1">
+    <parameter name="BROWSER" value="Firefox">
+    <classes>
+    <class name="com.crm.contact.NotifyOwnerBoxIsEnableOrNotTest"/>
+      <class name="com.crm.contact.EmailOptOutBoxIsEnableOrNotTest"/>
+      <class name="com.crm.contact.PortalUserboxIsEnableOrNotTest"/>
+      <class name="com.crm.contact.ReferanceBoxIsEnableOrNotTest"/>
+    </classes>
+    </parameter>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

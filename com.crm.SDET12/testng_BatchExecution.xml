@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name= "com.crm.comcast.genericutilitie.ItestListenerImtn"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.CreateContacts.CreateAContactAndVerifyTest"/>
+      <class name="com.crm.CreateContacts.CreateAContactAndVerifyInOrgTest"/>
+      <class name="com.crm.CreateOrganization.CreateOrganizationAndVerifyTest"/>
+      <class name="com.crm.CreateOrganization.CreateOrganizationByUsingIndustryTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

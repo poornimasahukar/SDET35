@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestRunner1(failed)">
+    <parameter name="BROWSER" value="Firefox"/>
+    <classes>
+      <class name="com.crm.contact.EmailOptOutBoxIsEnableOrNotTest">
+        <methods>
+          <include name="emailOptOutBoxIsEnableOrNotTest"/>
+          <include name="closeDBconfig"/>
+          <include name="closeTheBrowser"/>
+          <include name="launchTheBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="dbConfig"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- com.crm.contact.EmailOptOutBoxIsEnableOrNotTest -->
+      <class name="com.crm.contact.PortalUserboxIsEnableOrNotTest">
+        <methods>
+          <include name="portalUserboxIsEnableOrNotTest"/>
+          <include name="closeDBconfig"/>
+          <include name="closeTheBrowser"/>
+          <include name="launchTheBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="dbConfig"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- com.crm.contact.PortalUserboxIsEnableOrNotTest -->
+      <class name="com.crm.contact.NotifyOwnerBoxIsEnableOrNotTest">
+        <methods>
+          <include name="closeDBconfig"/>
+          <include name="closeTheBrowser"/>
+          <include name="notifyOwnerBoxIsEnableOrNotTest"/>
+          <include name="launchTheBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="dbConfig"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- com.crm.contact.NotifyOwnerBoxIsEnableOrNotTest -->
+      <class name="com.crm.contact.ReferanceBoxIsEnableOrNotTest">
+        <methods>
+          <include name="closeDBconfig"/>
+          <include name="closeTheBrowser"/>
+          <include name="referanceBoxIsEnableOrNotTest"/>
+          <include name="launchTheBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="dbConfig"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- com.crm.contact.ReferanceBoxIsEnableOrNotTest -->
+    </classes>
+  </test> <!-- TestRunner1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <parameter name="BROWSER" value="Chrome"/>
+    <classes>
+      <class name="com.crm.contact.EmailOptOutBoxIsEnableOrNotTest">
+        <methods>
+          <include name="emailOptOutBoxIsEnableOrNotTest"/>
+          <include name="closeDBconfig"/>
+          <include name="closeTheBrowser"/>
+          <include name="launchTheBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="dbConfig"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- com.crm.contact.EmailOptOutBoxIsEnableOrNotTest -->
+      <class name="com.crm.contact.NotifyOwnerBoxIsEnableOrNotTest">
+        <methods>
+          <include name="closeDBconfig"/>
+          <include name="closeTheBrowser"/>
+          <include name="notifyOwnerBoxIsEnableOrNotTest"/>
+          <include name="launchTheBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="dbConfig"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- com.crm.contact.NotifyOwnerBoxIsEnableOrNotTest -->
+      <class name="com.crm.contact.ReferanceBoxIsEnableOrNotTest">
+        <methods>
+          <include name="closeDBconfig"/>
+          <include name="closeTheBrowser"/>
+          <include name="referanceBoxIsEnableOrNotTest"/>
+          <include name="launchTheBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="dbConfig"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- com.crm.contact.ReferanceBoxIsEnableOrNotTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
